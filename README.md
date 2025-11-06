@@ -1,1 +1,1 @@
-This is Project 1 for Zaden Stowe
+# comp2245-project1

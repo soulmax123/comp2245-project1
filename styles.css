@@ -193,3 +193,51 @@ nav a:hover {
 .btn:hover {
   background-color: #3da76b;
 }
+
+
+.stories {
+  padding: 60px 0;
+}
+
+
+.stories h2 {
+  color: #5A67D8;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.stories article {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: nowrap;
+}
+
+.stories img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.article-body {
+  flex: 1;
+}
+
+.article-body h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.article-body a {
+  color: #5A67D8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.article-body a:hover {
+  text-decoration: underline;
+}

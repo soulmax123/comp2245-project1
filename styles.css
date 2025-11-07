@@ -241,3 +241,47 @@ nav a:hover {
 .article-body a:hover {
   text-decoration: underline;
 }
+
+.newsletter {
+  background-color: #48BB78;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.newsletter h3 {
+  margin-top: 0;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.newsletter button {
+  background-color: #5A67D8;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  opacity: 0.9;
+}
+
+.message {
+  margin-top: 15px;
+  font-weight: bold;
+}
